@@ -1,0 +1,86 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-android'
+
+android {
+    useLibrary(project.httpLibrary)
+    compileSdkVersion Integer.parseInt(project.compileSdkVersion)
+    buildToolsVersion project.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion project.minSdkVersion
+        targetSdkVersion project.targetSdkVersion
+        versionCode Integer.parseInt(project.coreVersion)
+        versionName project.coreName
+        multiDexEnabled Boolean.parseBoolean(project.multiDexEnabled)
+        vectorDrawables.useSupportLibrary = vectorDrawables.useSupportLibrary
+
+        testInstrumentationRunner project.testRunner
+    }
+    buildTypes {
+        release {
+            minifyEnabled Boolean.parseBoolean(project.minifyEnabled)
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug_uat {
+            debuggable true
+            jniDebuggable true
+        }
+        release_uat {
+            minifyEnabled Boolean.parseBoolean(project.minifyEnabled)
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            jniDebuggable true
+            debuggable true
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    ext.sdk_version='28.0.0'
+    ext.gms_verison='11.0.1'
+
+    def room_version = "1.1.1"
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    api "com.android.support:appcompat-v7:$sdk_version"
+    api "com.android.support:support-media-compat:$sdk_version"
+    api "com.android.support:support-v4:$sdk_version"
+    api 'com.android.support.constraint:constraint-layout:1.1.3'
+    api "com.android.support:recyclerview-v7:$sdk_version"
+    api "com.android.support:design:$sdk_version"
+    api "com.android.support:cardview-v7:$sdk_version"
+    api "com.google.android.gms:play-services-auth:$gms_verison"
+    api "com.google.android.gms:play-services-maps:$gms_verison"
+    api "com.google.android.gms:play-services-location:$gms_verison"
+    api 'joda-time:joda-time:2.9.9'
+    api 'com.facebook.fresco:fresco:1.10.0'
+    api 'com.facebook.fresco:animated-gif:1.10.0'
+    api 'com.facebook.fresco:imagepipeline-okhttp3:1.10.0'
+    api 'android.arch.lifecycle:extensions:1.1.1'
+    api 'io.reactivex.rxjava2:rxjava:2.2.15'
+    api 'io.reactivex.rxjava2:rxandroid:2.1.1'
+    api 'com.google.code.gson:gson:2.8.6'
+    api 'com.amazonaws:aws-android-sdk-core:2.12.0'
+    api 'com.amazonaws:aws-android-sdk-cognitoidentityprovider:2.12.0'
+    api "android.arch.work:work-runtime:1.0.1"
+    api 'com.github.barteksc:android-pdf-viewer:2.8.2'
+//    https://github.com/yuriy-budiyev/code-scanner/releases
+//    https://github.com/zxing/zxing/releases
+//    api 'com.github.bobekos:SimpleBarcodeScanner:1.0.23'
+//    https://androiddvlpr.com/android-barcode-scanner-library/
+//    https://bintray.com/yuriy-budiyev/maven/code-scanner/2.1.0#release
+
+    api "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+
+    api 'com.squareup.okhttp3:okhttp:3.10.0'
+    api 'com.squareup.okhttp3:logging-interceptor:3.10.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    androidTestImplementation 'android.arch.core:core-testing:1.1.1'
+}

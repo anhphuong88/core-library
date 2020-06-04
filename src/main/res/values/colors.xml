@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="w2_color_status_bar">#33000000</color><!-- 33000000 -->
+    <color name="bs_divider_color">#1f000000</color>
+    <color name="bs_dark_divider_color">#1fffffff</color>
+
+    <!-- Special color-->
+    <color name="cCalendar">#ADB0A7</color><!-- ADB0A7-->
+    <color name="cCalendar3">#000000</color>
+    <color name="cCalendar32">#9B9B9B</color>
+
+    <color name="color_holder">#E7E7E6</color>
+    <color name="color_holder1">#C8CAC8</color>
+    <color name="color_holder2">#DFDFDF</color>
+    <color name="color_holder3">#80FFFFFF</color><!-- 50FFFFFF-->
+    <color name="color_holder4">#33000000</color><!-- -->
+    <color name="color_holder5">#99FFFFFF</color><!-- -->
+
+    <color name="cCustomDomain">#7296AD</color>
+    <color name="cBgTransVeryLight">#28000000</color>
+    <color name="cBgTransLight">#3c000000</color>
+    <color name="cBgTransDark">#F5000000</color>
+
+    <!-- list color -->
+    <color name="c1">#FFFFFF</color>
+    <color name="c2">#FD0000</color> <!-- red -->
+    <color name="c3">#000000</color>
+    <color name="c4">#E1E0E1</color>
+    <color name="c5">#D4D3D4</color>
+    <color name="c6">#FF2600</color> <!-- red -->
+    <color name="c7">#2B4A4A4A</color> <!-- 174A4A4A-->
+    <color name="c8">#F7D8D8D8</color><!--97D8D8D8 -->
+    <color name="c9">#80000000</color><!-- 50000000-->
+    <color name="c10">#F4F4F4</color><!-- -->
+    <color name="c11">#4D9B9B9B</color><!-- 9B9B9B30-->
+    <color name="c12">#CC4A4A4A</color><!-- 4A4A4A80-->
+    <color name="c13">#CC979797</color><!-- 97979780-->
+    <color name="c14">#809B9B9B</color> <!-- 509B9B9B -->
+    <color name="c15">#F5A623</color> <!--oursqure score background -->
+    <color name="c16">#80979797</color><!-- 50979797-->
+    <color name="c17">#ABABAB</color> <!-- sub showMarkerTitle search -->
+    <color name="c18">#007AFF</color><!-- 007AFF global blue color -->
+    <color name="c19">#59A111</color><!-- open status -->
+    <color name="c20">#80D38402</color><!-- separator line 50D38402-->
+    <color name="c21">#AEAEAE</color><!-- place holder text color AEAEAE-->
+    <color name="c22">#80000000</color><!-- 50000000-->
+    <color name="c23">#66FF0202</color><!-- login screen: button bg color 40FF0202-->
+    <color name="c24">#8A919A</color><!-- plan cell description -->
+    <color name="c25">#F5F6F8</color><!-- plan darker bg -->
+    <color name="c26">#3366A2</color><!-- plan picker header -->
+    <color name="c27">#E69B9B9B</color><!-- background mask for popup 909B9B9B-->
+    <color name="c28">#030303</color> <!-- login screen text hight light -->
+    <color name="c29">#DADADA</color>
+    <color name="c30">#F3F3F3</color>
+    <color name="c31">#4A4A4A</color>
+    <color name="c32">#9B9B9B</color>
+    <color name="c33">#979797</color>
+    <color name="c34">#FF0202</color>
+    <color name="c35">#D9252A</color>
+    <color name="c36">#D0021B</color>
+    <color name="c37">#3D758F</color>
+    <color name="c38">#80D38402</color> <!--Need to define 50D38402-->
+    <color name="c39">#D38402</color>
+    <color name="c40">#50B4B8</color>
+    <color name="c41">#ED9860</color>
+    <color name="c42">#D358A1</color>
+    <color name="c43">#87B9F3</color>
+    <color name="c44">#C3C3C3</color>
+    <color name="c45">#DCDEE3</color><!--separator line-->
+    <color name="c46">#0D9B9B9B</color><!-- 059B9B9B-->
+    <color name="c47">#4A90E2</color> <!--border button on friend screen-->
+    <color name="c48">#F6F6F6</color>
+    <color name="c49">#409B9B9B</color><!-- 259B9B9B-->
+    <color name="c50">#339B9B9B</color><!-- 209B9B9B-->
+    <color name="c51">#999B9B9B</color><!-- 609B9B9B-->
+    <color name="c52">#B39B9B9B</color><!-- 709B9B9B-->
+    <color name="c53">#DEDEDE</color>
+    <color name="c54">#E2BA79</color>
+    <color name="c55">#EDEDED</color>
+    <color name="c56">#E64A4A4A</color><!-- 904A4A4A-->
+    <color name="c57">#FE3F35</color>
+    <color name="c58">#B4B4B4</color>
+    <color name="c59">#FBFBFB</color>
+    <color name="c60">#B0B0B0</color>
+    <color name="c61">#664A4A4A</color><!-- 4A4A4A40-->
+    <color name="c62">#616161</color>
+    <color name="c63">#D93D758F</color> <!-- Background color location map details -->
+    <color name="c64">#B34A4A4A</color><!-- 4A4A4A70-->
+
+    <color name="c100">#E6E6E6</color> <!-- 11142016-->
+    <color name="c101">#80979797</color><!-- 97979750  - ID11142016004 - SonLA2 - Search bar background color -->
+    <color name="c102">#D0011B</color><!-- Extra info cell -->
+    <color name="c103">#B3FFFFFF</color><!-- FFFFFF70 Added background for table EditProfile -->
+    <color name="c104">#8F8F8F</color><!-- Added border color for image profile -->
+    <!-- 11302016 - ID11302016004 - SonLA2 added new color for metacritic score color - S-->
+    <color name="c105">#6ACA3F</color><!-- green -->
+    <color name="c106">#FECB45</color><!-- yellow -->
+    <color name="c107">#FC0D1B</color><!-- red-->
+    <!-- 11302016 - ID11302016004 - SonLA2 added new color for metacritic score color - E -->
+    <color name="c108">#7D7972</color><!-- added text color on status pop up -->
+    <color name="c109">#ECECEC</color><!-- added text color on status pop up-->
+    <color name="c110">#1AA6C8F0</color><!-- A6C8F010 color for blur view-->
+    <color name="c111">#4990E2</color><!-- SonLA2 text color for btn on cinema cell-->
+    <color name="c112">#D90967D4
+    </color><!-- 0967D485  Added bg color for mapsearchviewcontroller bottom view-->
+    <color name="c113">#ED979797</color><!-- 97979793 popup background-->
+    <color name="c114">#FF0202</color><!-- FF0202 Achanged text color on editprofileVC-->
+    <color name="c115">#D7D7D7</color>
+    <color name="c116">#A6D4DDE7</color><!-- 65% D4DDE7-->
+    <color name="c117">#BEBEBE</color><!-- BEBEBE-->
+    <color name="c118">#4674AA</color><!-- 4674AA-->
+    <color name="c119">#0A9B9B9B</color><!-- 9B9B9B04-->
+    <color name="c120">#0967D4</color><!-- details site and menu and phone -->
+    <color name="c121">#804A4A4A</color><!-- 4A4A4updateTypingdate color of "..." symbol-->
+    <color name="c122">#B3B4B4B4</color><!-- B4B4B470-->
+    <color name="c123">#ADB0B0B0</color><!-- B0B0B068-->
+    <color name="c124">#1D1D1E</color><!-- 1D1D1E-->
+    <color name="c125">#1E1E1E</color><!-- 1E1E1E-->
+    <color name="c126">#F2F2F2</color><!-- F2F2F2-->
+    <color name="c127">#FC5C5C5C</color><!-- 5C5C5C99-->
+    <color name="c128">#82BBFA</color><!-- 82BBFA-->
+    <color name="c129">#E6D7D7D7</color><!-- D7D7D790-->
+    <color name="c130">#80D7D7D7</color> <!-- D7D7D750-->
+
+    <color name="c201">#D38415</color><!-- carousel list item line -->
+    <color name="c202">#D4D3D5</color><!-- bottom bar-->
+    <!--<color name="c203">#007AFF</color>&lt;!&ndash; dialog text&ndash;&gt;-->
+    <color name="c204">#D7D7D7</color><!-- dialog line-->
+    <color name="c205">#ED979797</color><!-- location hint-->
+    <color name="c206">#929292</color><!-- gallery extra item-->
+    <color name="c207">#4D000000</color><!-- 00000030-->
+    <color name="c208">#4D979797</color><!-- 00000030-->
+    <color name="c209">#1FF9F9F9</color><!-- F9F9F9 12%-->
+    <color name="c210">#615C5C5C</color><!-- 5C5C5C 38-->
+    <color name="c211">#ADB0B0B0</color><!-- B0B0B0 68-->
+    <color name="c212">#ADB0A7</color><!-- ADB0A7-->
+    <color name="c213">#0FF9F9F9</color><!-- F9F9F9 6%-->
+    <color name="c214">#F9F9F9</color><!-- F9F9F9-->
+    <color name="c215">#1E1E1E</color><!-- 1E1E1E-->
+    <color name="c216">#47000000</color><!-- 000000 28%-->
+    <color name="c217">#CCB0B0B0</color><!-- B0B0B0 80%-->
+    <color name="c218">#EB979797</color><!-- 979797 92%-->
+    <color name="c219">#CCD38402</color><!-- D38402 80%-->
+    <color name="c220">#4CD964</color><!-- 4CD964 -->
+    <color name="c221">#E90000</color><!-- E90000 -->
+    <color name="c222">#3D95CE</color><!--  -->
+    <color name="c223">#991E1E1E</color><!-- 1E1E1E 60% -->
+    <color name="c224">#B3AEAEAE</color><!-- AEAEAE 70% -->
+    <color name="c226">#4867AA</color>
+    <color name="c227">#AEAEAE</color>
+    <color name="c228">#24AEAEAE</color><!--AEAEAE 14%-->
+    <color name="c229">#FCFCFC</color><!--FCFCFC-->
+    <color name="c230">#40AEAEAE</color><!--AEAEAE 25%-->
+    <color name="c231">#CC929292</color><!-- 80%-->
+    <color name="c232">#F8F8F8</color><!---->
+    <color name="c234">#F2FFFFFF</color><!-- FFFFFF 95% -->
+    <color name="c235">#282828</color><!-- -->
+    <color name="c236">#B3000000</color><!-- 000000 70%-->
+    <color name="c237">#EB000000</color><!-- 000000 92%-->
+    <color name="c238">#1484FE</color>
+    <color name="c239">#E6FFFFFF</color>
+    <color name="c240">#B01E1E1E</color>
+    <color name="c241">#EB929292</color><!-- 92% 929292-->
+    <color name="c242">#4D8ED5</color><!-- 92% 929292-->
+    <color name="c243">#797979</color>
+    <color name="c244">#E3E3E3</color>
+    <color name="c245">#D8D8D8</color><!--D8D8D8 -->
+
+    <!-- predicted -->
+    <color name="cMenuColor1">#D9252A</color>
+    <color name="cMenuColor2">#50B4B8</color>
+    <color name="cMenuColor3">#ED9860</color>
+    <color name="cMenuColor4">#D358A1</color>
+    <color name="cMenuColor5">#87B9F3</color>
+
+    <!-- notification -->
+    <color name="colorAccent">#FF4081</color>
+    <!-- Color transparent-->
+    <!--
+        100% — FF
+        99% — FC
+        98% — FA
+        97% — F7
+        96% — F5
+        95% — F2
+        94% — F0
+        93% — ED
+        92% — EB
+        91% — E8
+        90% — E6
+        89% — E3
+        88% — E0
+        87% — DE
+        86% — DB
+        85% — D9
+        84% — D6
+        83% — D4
+        82% — D1
+        81% — CF
+        80% — CC
+        79% — C9
+        78% — C7
+        77% — C4
+        76% — C2
+        75% — BF
+        74% — BD
+        73% — BA
+        72% — B8
+        71% — B5
+        70% — B3
+        69% — B0
+        68% — AD
+        67% — AB
+        66% — A8
+        65% — A6
+        64% — A3
+        63% — A1
+        62% — 9E
+        61% — 9C
+        60% — 99
+        59% — 96
+        58% — 94
+        57% — 91
+        56% — 8F
+        55% — 8C
+        54% — 8A
+        53% — 87
+        52% — 85
+        51% — 82
+        50% — 80
+        49% — 7D
+        48% — 7A
+        47% — 78
+        46% — 75
+        45% — 73
+        44% — 70
+        43% — 6E
+        42% — 6B
+        41% — 69
+        40% — 66
+        39% — 63
+        38% — 61
+        37% — 5E
+        36% — 5C
+        35% — 59
+        34% — 57
+        33% — 54
+        32% — 52
+        31% — 4F
+        30% — 4D
+        29% — 4A
+        28% — 47
+        27% — 45
+        26% — 42
+        25% — 40
+        24% — 3D
+        23% — 3B
+        22% — 38
+        21% — 36
+        20% — 33
+        19% — 30
+        18% — 2E
+        17% — 2B
+        16% — 29
+        15% — 26
+        14% — 24
+        13% — 21
+        12% — 1F
+        11% — 1C
+        10% — 1A
+        9% — 17
+        8% — 14
+        7% — 12
+        6% — 0F
+        5% — 0D
+        4% — 0A
+        3% — 08
+        2% — 05
+        1% — 03
+        0% — 00
+        -->
+</resources>

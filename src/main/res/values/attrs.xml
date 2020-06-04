@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="app">
+        <attr name="appWidth" format="float"/>
+        <attr name="appHeight" format="float"/>
+        <attr name="appIconSize" format="float"/>
+        <attr name="appText" format="string"/>
+        <attr name="appTextSize" format="float"/>
+        <attr name="appTextColor" format="string"/>
+        <attr name="appIcon" format="reference"/>
+        <attr name="appIconSelected" format="reference"/>
+        <attr name="appIsSelected" format="boolean"/>
+        <attr name="appColor" format="string"/>
+        <attr name="appMaskColor" format="string"/>
+        <attr name="appFont" format="string" />
+    </declare-styleable>
+</resources>
